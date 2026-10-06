@@ -1,0 +1,18 @@
+int Array10[] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+println(Array10.length);
+println(Array10);
+
+//0 = 6, 1 = 5, 2 = 11, 3 = 2, 4 = 4, 5 = 6, 6 = 8, 7 = 1, 8 = 13, 9 = 10
+
+Array10[0] = 6;
+Array10[1] = 5;
+Array10[2] = 11;
+Array10[3] = 2;
+Array10[4] = 4;
+Array10[5] = 6;
+Array10[6] = 8;
+Array10[7] = 1;
+Array10[8] = 13;
+Array10[9] = 10;
+
+println(Array10);
