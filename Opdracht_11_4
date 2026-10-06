@@ -1,0 +1,11 @@
+int vierdeArray[] = new int[10];
+
+void setup(){
+for(int i = 0; i < vierdeArray.length; i++){
+  vierdeArray[i] = 10+i*12;
+}
+
+for(int i = 0; i < vierdeArray.length; i++){
+  println(vierdeArray[i]);
+ }
+}
