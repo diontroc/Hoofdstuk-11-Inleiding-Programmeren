@@ -1,0 +1,11 @@
+boolean gevonden;
+String vijfdeArray[] = {"Laszlo", "Pieter", "Jan", "Dirk"};
+
+void setup(){
+  gevonden = false;
+  for(int i = 0; i < vijfdeArray.length; i++){
+    if(vijfdeArray[i].equals("Jan"))
+      println("Jan zit erin!");
+      gevonden = true;
+    }
+  }
