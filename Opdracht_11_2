@@ -1,0 +1,2 @@
+int[] tweedeArray = {4, 6, 9, 12, 3, 11, 1};
+println(tweedeArray);
